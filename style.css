@@ -1,0 +1,73 @@
+body {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #091e42;
+	background-color: #fff;
+	text-align: left;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 3;
+	justify-content: space-between;
+}
+
+section#hero {
+	background: linear-gradient(0deg, #fff, #eae6ff 100%);
+	overflow-x: hidden;
+}
+
+.img-logo {
+	height: 35px;
+}
+.btn-sm {
+	padding: 0.25rem 0.5rem;
+	font-size: 1.09375rem;
+	line-height: 1.5;
+	border-radius: 0.2rem;
+}
+
+.pt-7,
+.py-7 {
+	padding-top: 7rem !important;
+}
+
+.pb-6,
+.py-6 {
+	padding-bottom: 5rem !important;
+}
+
+.pt-md-6,
+.py-md-6 {
+	padding-top: 5rem !important;
+}
+
+footer ul > li {
+	text-decoration: underline;
+}
+footer ul > li > a {
+	color: rgb(204, 204, 204);
+}
+
+.bg-navbar-white {
+	background-color: white;
+	transition: all 1s ease-out;
+	box-shadow: 1px 5px 5px rgb(161, 161, 161);
+}
+
+.bg-navbar {
+	background-color: transparent;
+	transition: all 1s ease-out;
+}
+
+#costumer-stories {
+	background-color: rgb(144, 218, 218);
+}
+
+.border-stories {
+	border-bottom: 1rem solid;
+}
